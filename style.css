@@ -1,10 +1,10 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto';
 }
 
 header {
-    font-family: 'Roboto';
     padding: 0px 124px 124px;
     border-color: #1F2937;
     background-color: #1F2937;
@@ -54,7 +54,7 @@ header {
 }
 
 .header_text button {
-    color: #F9FAF8;
+    color: #ffffff;
     background-color: #3882F6;
     display: block;
     font-size: 18px;
@@ -74,5 +74,26 @@ header {
 }
 
 .information {
-    background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.information_header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+.information_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_img_box{
+    border: 2px;
+    border-color: #3882F6;
+
 }
